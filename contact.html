@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Guitar Kings for amazing products you´ll love " />
+    <meta name="description" content="Contact Guitar Kings for amazing products you will love " />
     <link href="css/styles.css" rel="stylesheet">
     <title>Guitar Kings Contact</title>
 </head>
@@ -20,6 +20,24 @@
 
     </header>
     <h1>Contact</h1>
+<form method="POST">
+    <label for="name">Full name</label>
+    <input type="text" id="name" name="name" />
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email"/>
+    <label for="guitar">Guitar</label>
+    <select id="guitar" name="Guitar">
+        <option Value="Adirondack Red">Adirondack Red</option>
+        <option Value="Adirondack Blue">Adirondack Blue</option>
+        <option Value="Adirondack Green">Adirondack Green</option>
+    </select>
+    <input type="checkbox" id="email-updates." name="email-updates"/>
+    <label for="email-updates.">Sign up for email updates.</label>
+    <label for="message">Message</label>
+    <textarea id="message" name="message"></textarea>
+    <input type="submit" value="Send Now" class="cta" />
+</form>
+    
     <footer>Copyright &copy;</footer>
 </body>
 </html>
