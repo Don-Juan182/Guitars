@@ -15,6 +15,15 @@ h2,
 
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
+nav ul {
+    padding: 0px;
+
+}
+
+nav li{
+    display: inline-block;
+
+}
 
 header, 
 footer {
@@ -25,18 +34,40 @@ color: #fff;
 header a, footer {
     color: #FFF;
     }
+/*Links*/
+a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+.cta View Guitars {
+    width: 25px;
+
+}
+
+.active {
+    text-decoration: underline;
+}
 
 .cta {
 
     background-color: #bb0000;
     color:#FFF;
-    font-size: 1.5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+.cta-small{
+    padding: 8px 30px;
+    font-size: 0.8em;
 }
 .reviews {
 
     background-color: #e8e8e8;
 }
- .featured--products {
+ .featured__products {
     background-color: #fbfbfb;
  }
 .cta-sale {
