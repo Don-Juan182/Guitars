@@ -46,3 +46,19 @@ footer {
 text-align: center;
 }
 
+.header {
+    background-image: url(../images/home-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+img {
+    max-width: 600px;
+    border-radius: 50px 50px 50px 50px;
+}
+.reviews img {
+    max-width: 350px;
+    border-radius: 50%;
+
+}
