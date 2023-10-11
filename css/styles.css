@@ -37,8 +37,8 @@ header a, footer {
 /*Links*/
 a {
     text-decoration: none;
-    padding: 10px;
     margin: 5px;
+    padding: 10px;
     display: inline-block;
 }
 .cta View Guitars {
@@ -86,6 +86,13 @@ text-align: center;
     min-height: 70vh;
     background-position-x: right;
     background-position-y: bottom;
+    position: relative;
+}
+.welcome__content {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 100px;
 }
 
 .selling-points__images {
