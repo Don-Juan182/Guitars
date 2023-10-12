@@ -15,6 +15,9 @@ h2,
 
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
+nav {
+    margin-left: 25px;
+}
 nav ul {
     padding: 0px;
 
@@ -34,6 +37,7 @@ color: #fff;
 header a, footer {
     color: #FFF;
     }
+
 /*Links*/
 a {
     text-decoration: none;
@@ -80,12 +84,12 @@ text-align: center;
 /*Home page*/
 
 .welcome {
-    background-image: url(../images/home-header.jpg);
-    background-repeat: no-repeat;
+    background-image: url("../images/home-header.jpg");
     background-size: cover;
-    min-height: 70vh;
+    background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
+    min-height: 70vh;
     position: relative;
 }
 .welcome__content {
@@ -95,17 +99,22 @@ text-align: center;
     left: 100px;
 }
 
-.selling-points__images {
-    max-width: 600px;
-    border-radius: 100px;
-}
 .selling-points {
+    max-width: 1000px;
+    margin: 50px auto;
     display: flex;
-    justify-content: space-evenly;
-    margin: 80px;
 }
+
+.selling-points > * {
+    flex: 1;
+}
+
+.selling-points__images {
+    border-radius: 100px;
+    width: 100%;
+}
+
 .review__images {
-    max-width: 50px;
     border-radius: 50%;
 }
 .reviews h2,
@@ -122,12 +131,24 @@ div_two {
 }
 header {
     display: flex;
+    align-items: center;
 }
 
 /*Adironrack-red*/
 
 
+.flex-item {
+    height: 50px;
+    max-width: 50px;
+}
+
 .flex-item_one {
+    display: flex;
+    height: 300px;
+    max-width: 600px;
+}  
+.flex-item {
+    height: 50px;
     max-width: 50px;
 }
 
