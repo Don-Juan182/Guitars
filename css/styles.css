@@ -127,8 +127,8 @@ header {
 /*Adironrack-red*/
 
 
-.adironrack_red_one {
-    min-width: 150px;
+.flex-item_one {
+    max-width: 50px;
 }
 
 /*Contact Page*/
