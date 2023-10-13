@@ -1,53 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Guitar Kings for amazing products you will love " />
-    <link href="css/styles.css" rel="stylesheet">
-    <title>Guitar Kings Contact</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="View a list of guitars available from Guitar Kings." />
+    <title>Guitar Kings | Guitars</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <header>
-        <a href="index.html" class="logo">Guitar Kings</a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="guitars.html">Guitars</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-        </nav>
-
+      <a href="index.html" class="logo">Guitar Kings</a>
+      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="guitars.html" class="active">Guitars</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <main class="contact">
-    <h1>Contact</h1>
-<form method="POST">
-    <div class="form-wrapper">
-        <section>
-            <label for="name">Full name</label>
-            <input type="text" id="name" name="name" />
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email"/>
-            <label for="guitar">Guitar</label>
-            <select id="guitar" name="Guitar">
-                <option Value="Adirondack Red">Adirondack Red</option>
-                <option Value="Adirondack Blue">Adirondack Blue</option>
-                <option Value="Adirondack Green">Adirondack Green</option>
-            </select>
-            <div>
-                <input type="checkbox" id="email-updates." name="email-updates"/>
-                <label for="email-updates.">Sign up for email updates.</label>
-            </div>
-        </section>
-        <section>
-            <label for="message">Message</label>
-            <textarea id="message" name="message"></textarea>
-        </section>
-    </div>
-        <input type="submit" value="Send Now" class="cta" />
-</form>
-</main>
-    
+    <main class="guitars">
+      <h1>Guitars</h1>
+      <section class="product-list">
+        <div class="products">
+          <img src="images/product.jpg" alt="Adirondack Red" />
+          <h2>Adirondack Red</h2>
+          <p>$500</p>
+          <a href="products/adirondack-red.html" class="cta cta-small">View</a>
+        </div>
+        <div class="products">
+          <img src="images/product.jpg" alt="Adirondack Red" />
+          <h2>Adirondack Red</h2>
+          <div class="products--sale">
+            <p class="old-price">$500</p>
+            <p>$400</p>
+          </div>
+          <a href="products/adirondack-red.html" class="cta cta-small cta-sale">On Sale</a>
+        </div>
+        <div class="products">
+          <img src="images/product.jpg" alt="Adirondack Red" />
+          <h2>Adirondack Red</h2>
+          <p>$500</p>
+          <a href="products/adirondack-red.html" class="cta cta-small">View</a>
+        </div>
+        <div class="products">
+          <img src="images/product.jpg" alt="Adirondack Red" />
+          <h2>Adirondack Red</h2>
+          <p>$500</p>
+          <a href="products/adirondack-red.html" class="cta cta-small">View</a>
+        </div>
+        <div class="products">
+          <img src="images/product.jpg" alt="Adirondack Red" />
+          <h2>Adirondack Red</h2>
+          <p>$500</p>
+          <a href="products/adirondack-red.html" class="cta cta-small">View</a>
+        </div>
+        <div class="products">
+          <img src="images/product.jpg" alt="Adirondack Red" />
+          <h2>Adirondack Red</h2>
+          <p>$500</p>
+          <a href="products/adirondack-red.html" class="cta cta-small">View</a>
+        </div>
+        <div class="products">
+          <img src="images/product.jpg" alt="Adirondack Red" />
+          <h2>Adirondack Red</h2>
+          <p>$500</p>
+          <a href="products/adirondack-red.html" class="cta cta-small">View</a>
+        </div>
+        <div class="products">
+          <img src="images/product.jpg" alt="Adirondack Red" />
+          <h2>Adirondack Red</h2>
+          <p>$500</p>
+          <a href="products/adirondack-red.html" class="cta cta-small">View</a>
+        </div>
+        <div class="products">
+          <img src="images/product.jpg" alt="Adirondack Red" />
+          <h2>Adirondack Red</h2>
+          <p>$500</p>
+          <a href="products/adirondack-red.html" class="cta cta-small">View</a>
+        </div>
+      </section>
+    </main>
     <footer>Copyright &copy;</footer>
-</body>
+  </body>
 </html>
